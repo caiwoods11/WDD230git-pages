@@ -23,6 +23,7 @@ h1 {
 body{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.3em;
+    color:#222131;
     padding: 2.5em;
 }
 
@@ -98,7 +99,7 @@ a:link {
   }
   /* mouse over link */
  a:hover {
-    color:#29527A;
+    color:#222131;
   }
   /* selected link */
  a:active {
@@ -114,7 +115,7 @@ footer a:link {
   }
   /* mouse over link */
   footer a:hover {
-    color:ghostwhite;
+    color:#edae49;
   }
   /* selected link */
   footer a:active {
