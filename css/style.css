@@ -1,6 +1,6 @@
 
-html{
-}
+/* html{
+} */
 
 h1 {
     font-family: 'Noto Serif Display', serif;
@@ -40,6 +40,7 @@ section {
     margin-left: 1.5em;
 }
 
+/* 
 #assignments {
     
 }
@@ -52,9 +53,10 @@ ul{
     
 }
 
-li{
+li{ 
     
-}
+}*/
+
 img {
     border-radius: 25px;
     padding: 0px;
@@ -69,10 +71,11 @@ footer{
     border-radius: 25px;
     padding: 20px;
 }
+
 /*span{
     
 }*/
-.year{
+/* .year{
     
 }
 .name{
@@ -83,7 +86,8 @@ footer{
 }
 #online_learning_link{
     
-}
+} */
+
 #date_updated{
     color:#edae49;
     
@@ -104,6 +108,8 @@ a:link {
  a:active {
     color:#29527A;
   }
+
+  
 /* unvisited link */
 footer a:link {
     color: #ccc;
