@@ -65,7 +65,7 @@ img {
 footer{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.em;
+    font-size: 1em;
     color:ghostwhite;
     background-color: #222131;
     border-radius: 25px;
@@ -109,7 +109,7 @@ a:link {
     color:#29527A;
   }
 
-  
+
 /* unvisited link */
 footer a:link {
     color: #ccc;
