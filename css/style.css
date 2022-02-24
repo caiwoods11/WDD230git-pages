@@ -6,7 +6,7 @@ html{
 h1 {
     font-family: 'Noto Serif Display', serif;
     color:ghostwhite;
-    background-color: #474862;
+    background-color: #242D17;
     border-radius: 25px;
     padding: 20px;
 }
@@ -60,7 +60,7 @@ footer{
     text-align: center;
     font-family: 'Noto Serif Display', serif;
     color:ghostwhite;
-    background-color: #474862;
+    background-color: #242D17;
     border-radius: 25px;
     padding: 20px;
 }
@@ -83,3 +83,35 @@ footer{
     color:rgb(231, 221, 78);
     
 }
+/* unvisited link */
+a:link {
+    color:rgb(34, 39, 44);
+  }
+  /* visited link */
+ a:visited {
+    color:rgb(34, 39, 44);
+  }
+  /* mouse over link */
+ a:hover {
+    color:rgb(34, 39, 44);
+  }
+  /* selected link */
+ a:active {
+    color:rgb(34, 39, 44);
+  }
+/* unvisited link */
+footer a:link {
+    color: #ccc;
+  }
+  /* visited link */
+  footer a:visited {
+    color:ghostwhite;
+  }
+  /* mouse over link */
+  footer a:hover {
+    color:ghostwhite;
+  }
+  /* selected link */
+  footer a:active {
+    color:ghostwhite;
+  }
