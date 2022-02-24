@@ -5,8 +5,8 @@ html{
 
 h1 {
     font-family: 'Noto Serif Display', serif;
-    color:aliceblue;
-    background-color: #5E79B7;
+    color:ghostwhite;
+    background-color: #474862;
     border-radius: 25px;
     padding: 20px;
 }
@@ -59,8 +59,8 @@ img {
 footer{
     text-align: center;
     font-family: 'Noto Serif Display', serif;
-    color:aliceblue;
-    background-color: #5E79B7;
+    color:ghostwhite;
+    background-color: #474862;
     border-radius: 25px;
     padding: 20px;
 }
@@ -80,6 +80,6 @@ footer{
     
 }
 #date_updated{
-    color:darkkhaki;
+    color:rgb(231, 221, 78);
     
 }
