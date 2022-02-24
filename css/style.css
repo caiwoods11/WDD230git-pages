@@ -5,20 +5,24 @@ html{
 
 h1 {
     font-family: 'Noto Serif Display', serif;
-    color:ghostwhite;
-    background-color: #242D17;
+    font-size: 3.5em;
+    color:#222131;
+    background-color: #D1E1EF;
     border-radius: 25px;
     padding: 20px;
 }
 .pic{
 /*position: absolute;*/
-float: right;
-/* width: 24%;
-height: 30%;
-right: 10%; */
+    float: right;
+    width: 24%;
+    height: 30%;
+    right: 10%; 
+    filter: drop-shadow(0 0 0.75rem rgb(50, 50, 51));
 }
 
 body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.3em;
     padding: 2.5em;
 }
 
@@ -58,9 +62,10 @@ img {
 }
 footer{
     text-align: center;
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.em;
     color:ghostwhite;
-    background-color: #242D17;
+    background-color: #222131;
     border-radius: 25px;
     padding: 20px;
 }
@@ -80,24 +85,24 @@ footer{
     
 }
 #date_updated{
-    color:rgb(231, 221, 78);
+    color:#edae49;
     
 }
 /* unvisited link */
 a:link {
-    color:rgb(34, 39, 44);
+    color:#29527A;
   }
   /* visited link */
  a:visited {
-    color:rgb(34, 39, 44);
+    color:#29527A;
   }
   /* mouse over link */
  a:hover {
-    color:rgb(34, 39, 44);
+    color:#29527A;
   }
   /* selected link */
  a:active {
-    color:rgb(34, 39, 44);
+    color:#29527A;
   }
 /* unvisited link */
 footer a:link {
