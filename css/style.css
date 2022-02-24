@@ -40,22 +40,33 @@ section {
     margin-left: 1.5em;
 }
 
+#assignments h2{
+    margin-bottom: 0em;
+}
+
+/* #assignments hr{
+
+} */
+
 /* 
 #assignments {
     
-}
+}*/
 
 ul{
-    
+  padding: .5em;  
 }
 
+/*
 #assignment_list{
     
 }
+*/
 
 li{ 
-    
-}*/
+   margin-top: .7em; 
+   margin-left: 3em;
+}
 
 img {
     border-radius: 25px;
