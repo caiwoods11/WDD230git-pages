@@ -7,29 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal Course Assignment Portal for WDD 230. Gives users access to assignment links.">
     <title>My Course Portal</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/small.css">
+    <link rel="stylesheet" href="/css/medium.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Serif+Display:wght@600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header> 
-        <h1 class ="name">Cai C. Woods</h1>
-        
-    </header>
-    <img class= "pic" src="img/headshot_edit.jpg" alt="headshot">
-    <section id= "assignments"> 
-        
-        <h2> WDD 230: Assignment Portal</h2>
-        <hr>
-        <ul id= "assignment_list">
-            <li>Lesson 01: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Course Assignments Portal</a></li>
-            <!-- <li>Lesson 01: <a href= "https://byui.instructure.com/courses/180216/pages/w01-activity-design-principles?module_item_id=23572696"> Design Principles Document</a></li> -->
-            <li>Lesson 01: <a href= "http://127.0.0.1:5500/assignments/L01/design-principles-document.html"> Design Principles Document</a></li>
-        </ul>
-    </section>
+    <div id="content">
+        <header> 
+            <h1 class ="head-title">Cai C. Woods</h1>
+        </header>
+
+        <img class= "headshot" src="img/headshot_edit.jpg" alt="headshot">
+            
+            <h2 class="assignment_head"> WDD 230: Assignment Portal</h2>
+            <ul>
+                <li>Lesson 01: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Course Assignments Portal</a></li>
+                <li>Lesson 01: <a href= "/assignments/L01/"> Design Principles Document</a></li>
+                <li>Lesson 02: <a href= "/assignments/lesson2"> Website Planning Document - The Weather Site</a></li>
+                <li>Lesson 02: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Preston Town Page Start</a></li>
+                <li>Lesson 03: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Preston Town Page</a></li>
+                <li>Lesson 03: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Responsive Images</a></li>
+                <li>Lesson 04: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> The Gallery Page</a></li>
+                <li>Lesson 04: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> THe Storm Center Page</a></li>
+                <li>Lesson 05: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> The Weather Site Home Page</a></li>
+                <li>Lesson 05: <a href= "https://byui.instructure.com/courses/180216/assignments/8441321?module_item_id=23572690"> Preston Weather API</a></li>
+            </ul>
     <footer>
-        <div>
+        <div class="info">
             &copy; <span class= "year">xxxx</span>
             | <span class= "name">Cai C. Woods</span>
             | <span id= "state">California</span>
@@ -38,6 +46,7 @@
         <div id= "date_updated">Last Updated: 
         </div>
     </footer>
+    </div>
     <script src = "js/main.js">
     </script>
 </body>

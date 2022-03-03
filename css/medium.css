@@ -1,0 +1,10 @@
+@media (min-width: 32.5em) {
+    .headshot { 
+        float: right;  
+    }
+
+    #container {
+        grid-template-columns: 1fr 1fr;
+    }
+       
+}

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    max-width: 1100px;
+    background-color: #D1E1EF;
+    line-height: 2.75em;
+    border-radius: 10px;
+}
+  
+#content {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  } 
+
+h1 {      
+    padding: 40px;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 4em;
+    line-height: 1.1em;
+    color: #222131;
+    position:relative;
+}
+
+h2 {     
+    max-width: 750px;
+    float: left; 
+    padding: 3px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    line-height: 1em;
+    color: #222131;
+    position: relative;
+    
+}
+
+h3 {      
+    padding: 10px;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 2em;
+    line-height: 1.1em;
+    color: #222131;
+    position:relative;
+}
+h3 {      
+    padding: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.1em;
+    color: #222131;
+    position:relative;
+}
+
+p {
+    text-align: left;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    line-height: 1.35em;
+    color: #222131;
+}
+
+footer {
+    max-width: 1100px;
+    color: #ffffff;
+    background-color:#222131 ;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.75em;
+    border-radius: 10px;
+}
+/* unvisited link */
+a:link {
+    color:#29527A;
+  }
+  /* visited link */
+ a:visited {
+    color:#29527A;
+  }
+  /* mouse over link */
+ a:hover {
+    color:#222131;
+  }
+  /* selected link */
+ a:active {
+    color:#29527A;
+  }
+
+
+/* unvisited link */
+footer a:link {
+    color: #ccc;
+  }
+  /* visited link */
+  footer a:visited {
+    color:ghostwhite;
+  }
+  /* mouse over link */
+  footer a:hover {
+    color:#edae49;
+  }
+  /* selected link */
+  footer a:active {
+    color:ghostwhite;
+  }
+
+/* unvisited link */
+.site-nav a:link {
+    color:#29527A;
+  }
+  /* visited link */
+  .site-nav a:visited {
+    color:#29527A;
+  }
+  /* mouse over link */
+  .site-nav a:hover {
+    color:#222131;
+    background-color: #c3d5e6;
+  }
+  /* selected link */
+  .site-nav a:active {
+    color:#29527A;
+  }
+
+/* For index.html */
+.assignment_head {
+    float: none;
+    border-bottom: inset #29527A;
+}
+
+li {
+    text-align: justify;
+    font-family: 'Spectral', serif;
+    font-size: 1.25em;
+}
+
+.headshot {
+    position: relative;
+    z-index: 1000;
+    width: 25%;
+    margin: -65px 60px 15px 5px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem #222131);
+}
+
+.info {
+    text-align: center;
+}
+
+.online_learning_link {
+    color: #ffffff;
+}
+
+#date_updated {
+    text-align: right;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px) { 
+    /* beginning of media query  */
+         body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 1fr;
+      } 
+      .headshot {
+          float: none;
+          margin: auto;
+          display:block;
+          width: 50%;
+      }
+          /* grid-row: 2; */          
+      }
+      h2 {
+          grid-row: 3;
+      }
+      header {
+        grid-row:1;
+      }  
+
+
+
+
+
+/* For design-princliples.html */
+#contents {
+    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+#container {
+    display: grid;
+    max-width: 1100px;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	padding: 1px;
+}
+
+.principle {
+    float: none;
+    max-width: 1100px;
+    text-align: center; 
+    text-decoration: underline;
+    padding: 5px;
+    font-family: 'Spectral', serif;
+    font-size: 2em;
+    line-height: 1em;
+    color: #222131;
+    position: relative;
+}
+
+.column {
+    max-width: 1100px;
+    align-items: center;
+    margin: 3px;
+    border: 1px solid #D1E1EF;
+    background-color: #ffffff;
+    box-shadow: 10px -2px 15px 5px grey;
+    
+}
+
+.princ-pic {
+    display: block;
+    position: relative;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 346px;
+    height: 768px;
+}
+
+.portal {
+    color: #222131;
+}
+
+.design {
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: #29527A
+}
+
+.dpd-footer {
+    text-align: center;
+}
+
+
+
+
+
+/* For Weather Site index.html */
+.site-info{
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.site-info p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.icon{
+    position: absolute;
+    left: 10%;
+    margin-left: -width/2;
+}
+
+.site-nav {
+    position: sticky;
+    top: 0;
+	background-color: #dce1e6;
+	margin: auto;
+    margin-top: -50px;
+    margin-bottom: 10px;
+	max-width: 780px;
+	box-shadow: 0 0 30px #222131;
+
+}
+.site-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dce1e6;
+    position: sticky;
+    top: 0;
+}
+
+.site-nav li{
+    float: left;
+    margin-right: 7.5%;
+}
+
+.site-nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: 1em;
+    padding: 14px 5px;
+    text-decoration: none;
+}
+
+.site-.active {
+    background-color: #D1E1EF;
+}
+
+.site-li a:hover {
+    background-color: #29527A;
+  }
+.fonts {
+    width: 90%;
+}
