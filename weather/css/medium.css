@@ -1,0 +1,83 @@
+@media only screen and (min-width: 32.6em) {
+
+    h1 h2 {
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    main .story .story-image {
+        display: block;
+        margin: 10px auto;
+        padding: 15px;
+        color: #222131;
+        max-width: 500px;
+    }
+
+
+    .content {
+        background-color: rgb(255, 255, 255);
+        max-width: 650px;
+    }
+
+    nav {
+        display: block;
+    }
+
+	.navigation {
+		display: flex;
+
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+
+    .days {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    /* .days-col {
+        days: 1 1 auto;
+        background-color: #f5cf87;
+        border-bottom: 1px solid #29527A;
+        border-left: 1px solid #29527A;
+        text-align: center;
+    } */
+    
+    .days-col:hover, td:hover {
+        opacity: 0.75;
+        background-color: #222131;
+        color: white;
+    }
+    .days, .grid {
+        border-right: 1px solid #29527A;
+    }
+    
+    .col-head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #29527A;
+        text-align: center;
+    }
+    
+    
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .col-head {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #222131;
+        color: white;
+    }
+}

@@ -65,6 +65,7 @@ p {
     font-size: 1em;
     line-height: 1.35em;
     color: #222131;
+    font-size: 2.75vw;
 }
 
 footer {
@@ -320,3 +321,5 @@ margin-right: 10%;
 .fonts {
     width: 90%;
 }
+
+

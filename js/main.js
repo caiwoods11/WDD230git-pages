@@ -5,3 +5,6 @@ let year = new Date().getFullYear()
 console.log(year)
 document.querySelector(".year").textContent = year;
 
+
+
+

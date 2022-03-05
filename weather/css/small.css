@@ -1,0 +1,158 @@
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+@media only screen and (max-width: 32.5em) {
+    /*body {
+         background-color: blue; 
+    }*/
+    h1 h2 {
+        font-family: 'Abril Fatface', cursive;
+        color: #222131;
+    }
+    .content {
+        background-color: #29527A;
+        max-width: 1100px;
+        margin: 0 auto;
+    
+    }
+
+    header img {
+        /* display: block; */
+        padding: 1% 43%;
+        width: 10%;
+    }
+    
+    .days {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .days-col {
+        flex: auto;
+        background-color: #f5cf87;
+        border-bottom: 1px solid #29527A;
+        border-left: 1px solid #29527A;
+        text-align: center;
+    }
+    
+    .days-col:hover, td:hover {
+        opacity: 0.75;
+        background-color: #29527A;
+        color: white;
+    }
+    .days, .grid {
+        border-right: 1px solid #29527A;
+    }
+    
+    .col-head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #29527A;
+        text-align: center;
+    }
+    
+    
+    
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .col-head {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #29527A;
+        color: white;
+    }
+}
+/* Small/Phone View ***************/
+
+/* unvisited link */
+.site-nav a:link {
+    color:#29527A;
+  }
+  /* visited link */
+  .site-nav a:visited {
+    color:#29527A;
+  }
+  /* mouse over link */
+  .site-nav a:hover {
+    color:#29527A;
+    background-color: #c3d5e6;
+  }
+  /* selected link */
+  .site-nav a:active {
+    color:#29527A;
+  }
+nav {
+	margin: 0 auto;
+	max-width: auto;
+	background-color: #c3d5e6;
+    box-shadow: 0 0 30px #222131
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #222131;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "☰ ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #29527A;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+h1{
+    text-align: center;
+}
+
+.icon {
+    position:relative;
+    left: 50px;
+}
+
+
+
+
+
+
+
+
