@@ -45,10 +45,10 @@ const date2 = document.querySelector('#currentdate2');
 //   alert('Error with code or your browser does not support Locale');
 // }
 
-if (dayName == "Friday") {
+if (dayName == "Wednesday") {
 	var banner = document.createElement("div");
 	banner.className = "b";
-	banner.innerHTML = "Banner";
+	banner.innerHTML = 'Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.';
 
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.fontSize = "x-large";
 	document.body.insertBefore(banner,document.body.childNodes[0]).style.textAlign = "center";

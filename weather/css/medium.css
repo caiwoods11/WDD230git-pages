@@ -17,6 +17,12 @@
         background-color: rgb(255, 255, 255);
         max-width: 650px;
     }
+    .map{
+        display:inline;
+        float: left;
+        width: 40%;
+        margin-right: 30px;
+    }
 
     nav {
         display: block;
@@ -80,4 +86,5 @@
         background-color: #222131;
         color: white;
     }
+
 }
