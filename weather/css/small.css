@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 
-@media only screen and (max-width: 32.5em) {
+@media only screen and (max-width: 45.5em) {
     /*body {
          background-color: blue; 
     }*/
@@ -23,6 +23,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         max-width: 1100px;
         margin: 0 auto;
     
+    }
+    .ws-text{
+        font-size: 1em;
     }
     .contact-info {
         min-height: auto;
@@ -91,9 +94,53 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         background-color: #29527A;
         color: white;
     }
+    header img {
+        display: inline;
+    }
+    header h1{
+        display: inline;
+    }
+    .container {
+        display:block;
+        position:relative;
+        text-align: center;
+        margin: 20px auto;
+        }
+    .content-text{
+            display:block;
+            position:relative;
+            background: radial-gradient(#eee, #bad6ee);
+            /* padding: 1.5rem; */
+            box-shadow: 0 0 30px #222131;
+            /* opacity: 0.6; */
+            word-wrap: break-word;
+    }
+    .content-text h2{
+        font-family: 'Sorts Mill Goudy', serif;
+        font-size: 2em;
+    }
+    .center-top {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .article-img {
+        width: 100%;
+    }
 }
 /* Small/Phone View ***************/
 
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #222131;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
 /* unvisited link */
 .site-nav a:link {
     color:#29527A;
@@ -111,6 +158,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
   .site-nav a:active {
     color:#29527A;
   }
+  .disabled {
+    background-color: rgb(245 207 135);
+    cursor: not=allowed;
+  }
 nav {
 	margin: 0 auto;
 	max-width: auto;
@@ -126,16 +177,6 @@ nav {
 }
 .navigation li {
 	display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color: #222131;
-	font-weight: 700;
-	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .navigation a.ham::before {
@@ -176,6 +217,8 @@ h1{
     filter: contrast(.1);
     filter:saturate(1.3);
  }
+
+ 
 
 
 

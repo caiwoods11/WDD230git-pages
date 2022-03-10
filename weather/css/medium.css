@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.6em) {
+@media only screen and (min-width: 45.6em) {
 
     h1 h2 {
         font-family: 'Abril Fatface', cursive;
@@ -87,4 +87,66 @@
         color: white;
     }
 
+    .container {
+        position:relative;
+        text-align: center;
+        margin: 20px auto;
+        }
+    .content-text{
+            position: absolute;
+            width: 40%;
+            top: 20%;
+            margin-left: 10%;
+            margin-right: 80%;
+            background: radial-gradient(#eee, #5553c45e);
+            border: 1px ridge #222131;
+            /* padding: 1.5rem; */
+            box-shadow: 0 0 30px #222131;
+            opacity: 0.6;
+            word-wrap: break-word;
+    }
+    .content-text h2{
+        font-family: 'Sorts Mill Goudy', serif;
+        font-size: 2em;
+
+    }
+    .center-top {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .ws-text{
+        font-size: 1.3em;
+        margin:0;
+    }
+
+    .article-img-box {
+        shape-outside: content-box;
+        /* display: inline; */
+         /* position: absolute; */
+        width: 50%;
+        /* right: 0px; */
+        /* margin-top: 80px; */
+         top: 0px;
+        float:right;
+        /* shape-outside:polygon(0 px 0 px, 0px 10px, 10px 0px, 10px 10px); */
+    }
+    .article-img{
+        width:100%;
+        margin-left:25px;
+    }
+.article-container{
+    /* display: inline-block; */
+    position: relative;
+    border: ridge 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top:25px;
+    min-height: 400px;
+}
+.article-container p{
+    /* display: inline;  */
+    text-align: justify;
+}
 }
