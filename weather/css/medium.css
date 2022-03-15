@@ -147,4 +147,24 @@
     height: 500px;
         
 }
+[data-src] {
+    min-width: 250px;
+    min-height: 100px;
+}
+
+.gallery-img {
+    height: 450px;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 0px; */
+    grid-gap: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
 }
