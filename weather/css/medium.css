@@ -167,4 +167,23 @@
     padding-left: 28px;
     padding-right: 28px;
 }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 #222131;
+    transition: 0.3s;
+    background-color: #d1e1ef4b;
+    padding-bottom: 100px;
+    position:absolute;
+    width: 50%;
+    top: 20%;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #222131;
+    background-color: #d1e1ef73;
+  }
 }

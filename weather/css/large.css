@@ -137,6 +137,10 @@ footer {
     /* margin: 0 auto; */
     box-shadow: 0 0 5px #222131;
 }
+
+  
+  /* Add some padding inside the card container */
+
 @media only screen and (min-width: 75em){
     .map{
         display:inline;
@@ -224,5 +228,26 @@ footer {
         padding-left: 28px;
         padding-right: 28px;
     }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 #222131;
+        transition: 0.3s;
+        background-color: #d1e1ef4b;
+        position:absolute;
+        width: 50%;
+        top: 20%;
+        margin-right: 25%;
+        margin-left: 25%;
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 #222131;
+        background-color: #d1e1ef73;
+      }
     
+      .c-container{
+          /* padding: 100px; */
+      }
 }
