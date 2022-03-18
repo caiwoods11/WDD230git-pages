@@ -138,6 +138,90 @@ footer {
     box-shadow: 0 0 5px #222131;
 }
 
+#form-error{
+    width: 100%;
+}
+#form-label{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
+}
+#form-input{
+    width: 85%;
+    margin: auto;
+}
+#form-input > input {
+    width:100%;
+    font-size: 20px;
+    text-align:center;
+    padding: 20px;
+    background-color: hsla(208, 63%, 19%, 0.231);
+    border-style: solid;
+    border-color: #222131;
+}
+#form-input > textarea {
+    width:100%;
+    font-size: 20px;
+    /* text-align:center; */
+    padding: 20px;
+    background-color: #12324e3b;
+    border-style: solid ;
+    border-color: #222131;
+}
+#form-input > select {
+    width:100%;
+    font-size: 20px;
+    text-align:center;
+    padding: 20px;
+    background-color: #12324e3b;
+    border-style: solid;
+    border-color: #222131;
+}
+#form-input > label {
+    display:block;
+    font-size: 20px;
+    text-align: right;
+    margin-right:40%;
+    font-weight:600;
+}
+#form-input > label:hover {
+    font-size: 30px;
+}
+
+#form-input > label > input {
+    margin-left: 25px;
+}
+#form-input > label > input:hover {
+    height: 20px;
+    width: 20px;
+}
+
+#form-submit{
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:rgb(245 207 135) ;
+    border-style: none;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: .5; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+  
   
   /* Add some padding inside the card container */
 
