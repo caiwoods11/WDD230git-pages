@@ -140,6 +140,8 @@ footer {
 
 #form-error{
     width: 100%;
+    color:#ff0606;
+    font-weight:600;
 }
 #form-label{
     width: 100%;
@@ -224,6 +226,58 @@ footer {
   
   
   /* Add some padding inside the card container */
+/* unvisited link */
+a:link {
+    color:#29527A;
+  }
+  /* visited link */
+ a:visited {
+    color:#29527A;
+  }
+  /* mouse over link */
+ a:hover {
+    color:#222131;
+  }
+  /* selected link */
+ a:active {
+    color:#29527A;
+  }
+
+
+/* unvisited link */
+footer a:link {
+    color: #ccc;
+  }
+  /* visited link */
+  footer a:visited {
+    color:ghostwhite;
+  }
+  /* mouse over link */
+  footer a:hover {
+    color:#edae49;
+  }
+  /* selected link */
+  footer a:active {
+    color:ghostwhite;
+  }
+
+/* unvisited link */
+.site-nav a:link {
+    color:#29527A;
+  }
+  /* visited link */
+  .site-nav a:visited {
+    color:#29527A;
+  }
+  /* mouse over link */
+  .site-nav a:hover {
+    color:#222131;
+    background-color: #c3d5e6;
+  }
+  /* selected link */
+  .site-nav a:active {
+    color:#29527A;
+  }
 
 @media only screen and (min-width: 75em){
     .map{
