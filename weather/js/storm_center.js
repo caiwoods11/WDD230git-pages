@@ -297,7 +297,7 @@ const buttonHandler = (e) => {
                 // console.log(form_data)
                 // console.log(document.querySelector("#first-name"))
 
-                let regex = /^[\w]{3}$/
+                let regex = /^[\w]{3,25}$/
                 let data = document.querySelector("#first-name").value;
                 if (!regex.test(data)){
                     f_error.textContent = "Text must be 3 characters long"
@@ -316,7 +316,7 @@ const buttonHandler = (e) => {
         case "lastName": {
             e.preventDefault();
 
-            let regex = /^[\w]{3}$/
+            let regex = /^[\w]{3,25}$/
             let data = document.querySelector("#last-name").value;
             if (!regex.test(data)){
                 f_error.textContent = "Text must be 3 characters long"
