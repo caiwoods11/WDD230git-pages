@@ -168,6 +168,33 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
         box-shadow: 0 8px 16px 0 #222131;
         background-color: rgba(50, 104, 158, 0.596);
       }
+
+      .town-grid-item{
+        margin: 10px auto;
+        border: 1px #222131;
+        color: #222131;
+        background-color: #D1E1EF;
+        width: 100%;
+        word-wrap: break-word;
+        /* margin: 0 auto; */
+        box-shadow: 0 0 5px #222131;
+    }
+    
+.town-grid-container {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 1fr;
+    /* column-gap: 0px; */
+    grid-gap: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.townsimg {
+    float: none;
+    width: 100%;
+}
 }
 /* Small/Phone View ***************/
 
