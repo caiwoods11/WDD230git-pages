@@ -27,7 +27,7 @@ function forecast_output () {
 }
 
 async function FetchForecast(){
-    let url = "http://api.openweathermap.org/data/2.5/onecall?id=524901&appid=6012b03278f12830c67408ce29eef0f5&units=imperial&lat=42.10497&lon=-111.88393&exclude=hourly"
+    let url = "https://api.openweathermap.org/data/2.5/onecall?id=524901&appid=6012b03278f12830c67408ce29eef0f5&units=imperial&lat=42.10497&lon=-111.88393&exclude=hourly"
     await fetch(url)
     .then((response) => {
         return response.json();
