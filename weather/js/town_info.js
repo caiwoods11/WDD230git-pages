@@ -28,8 +28,10 @@ function output (list) {
         let img = document.createElement("img");
         img.src = "images/"+list[i].photo;
         img.className = "townsimg"
+        img.alt = "image of the town"
         if(list[i].name == "Fish Haven"){
             img.className += " townsimg-float-right";
+            img.alt = "image of the town";
         }
         else 
             img.className += " townsimg-float-left"
