@@ -1,0 +1,289 @@
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+JP:wght@300&family=Noto+Serif+Display:wght@600&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+@media only screen and (max-width: 45.5em) {
+    /*body {
+         background-color: blue; 
+    }*/
+    h1{
+        display: block;
+    }
+    h1 h2 {
+        font-family: 'Abril Fatface', cursive;
+        color: #0b2b24;
+    }
+    .content {
+        background-color: #0b2b24;
+        max-width: 1100px;
+        margin: 0 auto;
+    
+    }
+    .ws-text{
+        font-size: 1em;
+    }
+    .contact-info {
+        min-height: auto;
+    }
+/* 
+    header img {
+        display: block;
+        padding: 1% 43%;
+        width: 10%;
+    }
+     */
+
+    .days {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    .days-col {
+        flex: auto;
+        background-color: #f5cf87;
+        border-bottom: 1px solid #29527A;
+        border-left: 1px solid #29527A;
+        text-align: center;
+    }
+    
+    .days-col:hover, td:hover {
+        opacity: 0.75;
+        background-color: #29527A;
+        color: white;
+    }
+    .days, .grid {
+        border-right: 1px solid #29527A;
+    }
+    
+    .col-head {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #0b2b24;
+        text-align: center;
+    }
+    
+    .logo {
+        display: block;
+        margin: auto;
+    }
+    .map{
+        display: block;
+        position: relative;
+        float: none;
+        width: 90%;
+        margin: auto;
+    
+    }
+    
+    
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .col-head {
+        font-weight: 700;
+        font-size: 1rem;
+        background-color: #29527A;
+        color: white;
+    }
+    header img {
+        display: inline;
+    }
+    header h1{
+        display: inline;
+    }
+    .container {
+        display:block;
+        position:relative;
+        text-align: center;
+        margin: 20px auto;
+        }
+    .content-text{
+            display:block;
+            position:relative;
+            background: radial-gradient(#eee, #bad6ee);
+            /* padding: 1.5rem; */
+            box-shadow: 0 0 30px #0b2b24;
+            /* opacity: 0.6; */
+            word-wrap: break-word;
+    }
+    .content-text h2{
+        font-family: 'Sorts Mill Goudy', serif;
+        font-size: 2em;
+    }
+    .center-top {
+        position: absolute;
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .center-top1 {
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .article-img {
+        width: 100%;
+    }
+    .hero-img{
+        width: 100%;
+        height: 10%;
+        
+     }
+     .hero-img1{
+        width: 100%;
+        height: 10%;
+    }
+
+     [data-src] {
+        min-width: 250px;
+        min-height: 100px;
+    }
+    
+    .gallery-img {
+        height: 450px;
+        width: 100%;
+    }
+     .grid-container {
+        display: grid;
+        position: relative;
+        margin: auto;
+        grid-template-columns: 1fr;
+        /* column-gap: 0px; */
+        grid-gap: 10px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 #0b2b24;
+        transition: 0.3s;
+        background-color: #D1E1EF;
+        display:block;
+        padding-bottom: 100px;
+      }
+    
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 #0b2b24;
+        background-color: #0b2b24;
+      }
+
+      .town-grid-item{
+        margin: 10px auto;
+        border: 1px #0b2b24;
+        color: #0b2b24;
+        background-color: #D1E1EF;
+        width: 100%;
+        word-wrap: break-word;
+        /* margin: 0 auto; */
+        box-shadow: 0 0 5px #0b2b24;
+    }
+    
+.town-grid-container {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-columns: 1fr;
+    /* column-gap: 0px; */
+    grid-gap: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.townsimg {
+    float: none;
+    width: 100%;
+}
+}
+/* Small/Phone View ***************/
+
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #0b2b24;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+/* unvisited link */
+.site-nav a:link {
+    color:#0b2b24;
+  }
+  /* visited link */
+  .site-nav a:visited {
+    color:#0b2b24;
+  }
+  /* mouse over link */
+  .site-nav a:hover {
+    color:#0b2b24;
+    background-color: #c3d5e6;
+  }
+  /* selected link */
+  .site-nav a:active {
+    color:#0b2b24;
+  }
+  .disabled {
+    background-color: #a06101;
+    cursor: not=allowed;
+  }
+nav {
+	margin: 0 auto;
+	max-width: auto;
+	background-color: #ebfffb;
+    box-shadow: 0 0 30px #0b2b24
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+
+.navigation a.ham::before {
+	content: "☰ ";
+    float: right;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #0b2b24;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+h1{
+    text-align: center;
+}
+
+.icon {
+    position:relative;
+    left: 50px;
+}
