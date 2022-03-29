@@ -87,7 +87,7 @@
     .content-text{
             position: absolute;
             width: 40%;
-            top: 20%;
+            top: 30%;
             margin-left: 10%;
             margin-right: 80%;
             background: radial-gradient(#eee, #5553c45e);
@@ -105,6 +105,13 @@
     .center-top {
         position: absolute;
         top: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .center-top1 {
+        position: absolute;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
@@ -135,7 +142,7 @@
     padding-left: 25px;
     padding-right: 25px;
     margin-top:25px;
-    min-height: 400px;
+    /* min-height: 400px; */
 }
 .article-container p{
     /* display: inline;  */
@@ -146,6 +153,12 @@
     width: 100%;    
     height: 600px;
         
+}
+
+.hero-img1{
+    display: inline;
+    width: 100%;    
+    height: 650px;
 }
 [data-src] {
     min-width: 250px;

@@ -10,7 +10,7 @@ let forecast = []
 
 let weather = {}
 
-function output () {
+function output_windchill () {
     console.log(weather);
     let temp = document.querySelector("#temp");
     temp.textContent = weather.temp_f;
@@ -33,7 +33,15 @@ function output () {
 }
 
 async function FetchWeather(){
+
+    
     let url = "https://api.weatherapi.com/v1/forecast.json?key=103ea9f0eebe4be1825213412221103&q=83263&days=5&aqi=no&alerts=no"
+    if(page == "Soda Springs"){
+        url = "http://api.weatherapi.com/v1/forecast.json?key=103ea9f0eebe4be1825213412221103&q=Soda Springs&days=1&aqi=no&alerts=no"
+    }
+    else if (page == "Fish Haven"){
+        url = "http://api.weatherapi.com/v1/forecast.json?key=103ea9f0eebe4be1825213412221103&q=Fish Haven&days=1&aqi=no&alerts=no"
+    }
     await fetch(url)
     .then((response) => {
         return response.json();
@@ -44,6 +52,6 @@ async function FetchWeather(){
     // console.log(forecast)
     //     wdata = weatherJSON.data.results;
     });
-    output();
+    output_windchill();
 }
 FetchWeather();
