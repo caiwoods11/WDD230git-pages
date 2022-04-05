@@ -69,6 +69,26 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+.tour{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.tour-img-left{
+  grid-column: 1;
+  width: 100%;
+}
+.tour-img-right{
+  grid-column: 2;
+  width: 100%;
+}
+.tour-txt-left{
+  grid-column: 1;
+
+}
+.tour-txt-right{
+  grid-column: 2;
+}
 a {
   color: inherit;
   text-decoration: none;
