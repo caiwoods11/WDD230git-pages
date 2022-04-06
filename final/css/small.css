@@ -57,4 +57,27 @@
         width: 50px;
         margin-left: 10px;
       }
+      .tour{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+      .tour-img-left{
+        grid-column: 1/ span 2;
+        grid-row: 1;
+        width: 100%;
+      }
+      .tour-img-right{
+        grid-column: 1/ span 2;
+        grid-row: 1;
+        width: 100%;
+      }
+      .tour-txt-left{
+        grid-column: 1/span 2;
+        grid-row: 2;
+      }
+      .tour-txt-right{
+        grid-column: 1/span 2;
+        grid-row: 2;
+      }
 }
