@@ -824,28 +824,36 @@ body {
   .days-col {
     flex: 1;
     background-color: #fdfaeb;
-    border-bottom: 1px solid #29527A;
-    border-left: 1px solid #29527A;
+    border-bottom: 1px solid #0b2b24;
+    border-left: 1px solid #0b2b24;
     text-align: center;
   }
+
+  /* .days-col:hover {
+    color: white;
+  }
+
+  #temp-0, #temp-1, #temp-2, #temp-3, #temp-4 {
+    font-weight: 800;
+  } */
   
   .days-col:hover, td:hover {
     opacity: 0.75;
-    background-color: #29527A;
-    color: white;
+    background-color: #000000;
   }
   .days, .grid {
-    border-right: 1px solid #29527A;
+    border-right: 1px solid #0b2b24;
+    font-weight: 1000;
   }
   
   .col-head {
     display: block;
     padding: 5px;
-    border-bottom: 1px solid #29527A;
+    border-bottom: 1px solid #0b2b24;
     text-align: center;
       font-weight: 700;
     font-size: 1rem;
-    background-color: #3e668f;
+    background-color: #0b2b24;
     color: white;
   }
   
